@@ -5,9 +5,9 @@ run-name: ${{ github.actor }}
 # Controls when the workflow will run
 on:
   push:
-    branches: [ "main" ,"dev"]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "main","dev" ]
+    branches: [ "main" ]
 
 env:
   ENV_STAGE: ${{ vars.MY_STAGE}}   
